@@ -3,6 +3,7 @@
 # ID-GENERATOR
 # WHOAMI
 # BECOME WHOEVER YOU WANT, NO MATTER WHO YOU ARE
+def ascii
 puts "\eH\e[2J"
 puts 'WELCOME TO THE ID-GENERATOR'
 puts "\033[31m _       ____          ___               ____\033[0m\n"
@@ -12,6 +13,7 @@ puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
 puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
 puts "                                                      Credits: R4pt0rDr43m"
 puts ""
+end
 count5 = 1
 count10 = 0
 count11 = 0
@@ -23,14 +25,7 @@ puts "\033[42mAny requirements about the ID to generate?[Y/n]\033[0m\n"
 puts ""
 str1 = gets.chomp.downcase
 if str1 == "y" || str1 == ""
-  puts "\e[H\e[2J"
-  puts "\033[31m _       ____          ___               ____\033[0m\n"
-  puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-  puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-  puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-  puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-  puts "                                                      Credits: R4pt0rDr43m"
-  puts ""
+ ascii();
   puts ""
   puts ""
   puts "Have you got any considerations regarding the following points?"
@@ -49,15 +44,7 @@ count7 = 0
   if str2 == '1'                                                                                                     # ASK FOR GENDER
     while count7 == 0
       count11 = 1
-puts "\e[H\e[2J"
-puts 'WELCOME TO THE ID-GENERATOR'
-puts "\033[31m _       ____          ___               ____\033[0m\n"
-puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-puts "                                                      Credits: R4pt0rDr43m"
-puts ""
+ascii();
     puts "Male or female?"
     str3 = gets.chomp.downcase
     if str3 == "male"
@@ -78,14 +65,7 @@ puts ""
   end
     if str2 == "2"                                                                                                #ASK FOR AGE
       count10 = 1
-puts "\e[H\e[2J"
-puts 'WELCOME TO THE ID-GENERATOR'
-puts "\033[31m _       ____          ___               ____\033[0m\n"
-puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-puts "                                                      Credits: R4pt0rDr43m"
+ascii();                                                    
 puts ""
       puts ""
       puts "--------------------------------------------------------------------------------"
@@ -99,14 +79,7 @@ count2 = 0
     if str2 == ""
       count11 = 1                                                                                         #ASK FOR GENDER AND AGE
       while count2 == 0
-puts "\e[H\e[2J"
-puts 'WELCOME TO THE ID-GENERATOR'
-puts "\033[31m _       ____          ___               ____\033[0m\n"
-puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-puts "                                                      Credits: R4pt0rDr43m"
+ascii();
 puts ""
         puts ""
         puts "Male or female?"
@@ -127,14 +100,7 @@ puts ""
       end
 count3 = 0
     while count3 == 0
-puts "\e[H\e[2J"
-puts 'WELCOME TO THE ID-GENERATOR'
-puts "\033[31m _       ____          ___               ____\033[0m\n"
-puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-puts "                                                      Credits: R4pt0rDr43m"
+ascii();                            
 puts ""
       puts ""
      puts "How old would you like?"
@@ -187,34 +153,16 @@ puts ""
   puts "\033[42mDo you want to start generating the ID?[Y/n]\033[0m\n"                                                        #REQUEST FOR LOADING THE NEW ID
   str5 = gets.chomp.downcase
   if str5 == "y" || str5 == ""
-    puts "\eH\e[2J"
-    puts "\033[31m _       ____          ___               ____\033[0m\n"
-    puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-    puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-    puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-    puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-    puts "                                                      Credits: R4pt0rDr34m"
+ascii();
     puts "Loading process..."
     sleep 2
-    puts "\033[31m _       ____          ___               ____\033[0m\n"
-    puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-    puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-    puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-    puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-    puts "                                                      Credits: R4pt0rDr34m"
+    ascii();                                                    
     puts "\e[H\e[2J"
     puts "\033[42mProcess finished loading!\033[0m\n"                                                                                             #NO PROCESS LOADING LMAO
     puts "Press ENTER to display your new Identity Card!"
     puts "..."
     str1337 = gets.chomp
-    puts "\e[h\e[2J"
-    puts "\033[31m _       ____          ___               ____\033[0m\n"
-    puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-    puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-    puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-    puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-    puts "                                                      Credits: R4pt0rDr34m"
-    puts ""
+    ascii();
     puts "                                                                                                 I like Donuts - Homer SIMPSON"
     puts ""
     puts "\033[42mHere is your new ID:\033[0m\n"                                                                                                     #DISPLAY THE NEW ID
@@ -306,13 +254,7 @@ puts ""
     puts "-------------------------------------------------------------------------------------------------------------"
     sleep 300                                                                                                                                                                                                                         #DELAY OF 300 SEC BEFORE SHUTTING DOWN
   elsif str5 == "n"                                                                                                                                                                                                                   #DON'T GENERATE ANY ID
-    puts "\e[H\e[2J"
-    puts "\033[31m _       ____          ___               ____\033[0m\n"
-    puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-    puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-    puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-    puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-    puts "                                                      Credits: R4pt0rDr34m"
+   ascii();
     puts ""
     puts "                                                                                                 I like Donuts - Homer SIMPSON"
     puts "Why did you come then!"
