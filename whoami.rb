@@ -141,13 +141,7 @@ end
 count6 = 1
 puts "\e[H\e[2J"
 while count6 == 1
-puts 'WELCOME TO THE ID-GENERATOR'
-puts "\033[31m _       ____          ___               ____\033[0m\n"
-puts "\033[31m| |     / / /_  _____ /   |  ____ ___   /  _/\033[0m\n"
-puts "\033[31m| | /| / / __  /__   / /| | / __ `__   /  /   \033[0m\n"
-puts "\033[31m| |/ |/ / / / / /_/ / ___ |/ / / / /  /  /  \033[0m\n"
-puts "\033[31m|__/|__/_/ /_/____/ _/  |_/_/ /_/ /_/___/  \033[0m\n"
-puts "                                                      Credits: R4pt0rDr43m"
+ascii();                                                Credits: R4pt0rDr43m"
 puts ""
   puts ""
   puts "\033[42mDo you want to start generating the ID?[Y/n]\033[0m\n"                                                        #REQUEST FOR LOADING THE NEW ID
